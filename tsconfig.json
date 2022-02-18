@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    "target": "ES6",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "commonjs",
+    "sourceMap": true,
+
+    // "importHelpers": true, // smaller bundle size + better performance see https://www.npmjs.com/package/tslib
+    "strict": true,
+    "moduleResolution": "node",
+    // "allowJs": true, // allow javascript modules to be used!
+    // "isolatedModules": true,
+  },
+  "exclude": [
+    "./node_modules",
+    "./dist",
+    "./test",
+  ]
+}
